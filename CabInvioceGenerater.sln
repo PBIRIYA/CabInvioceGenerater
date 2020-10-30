@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvioceGenerater", "CabInvioceGenerater\CabInvioceGenerater.csproj", "{1D54C291-F650-4AA5-AB89-78F8B4279A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{496C6A4B-A7E8-463E-AB4B-4EE9ECF6555D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D54C291-F650-4AA5-AB89-78F8B4279A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D54C291-F650-4AA5-AB89-78F8B4279A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D54C291-F650-4AA5-AB89-78F8B4279A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D54C291-F650-4AA5-AB89-78F8B4279A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496C6A4B-A7E8-463E-AB4B-4EE9ECF6555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496C6A4B-A7E8-463E-AB4B-4EE9ECF6555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496C6A4B-A7E8-463E-AB4B-4EE9ECF6555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496C6A4B-A7E8-463E-AB4B-4EE9ECF6555D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82C88E30-770F-4C73-BB08-92766B3D14F7}
+	EndGlobalSection
+EndGlobal
