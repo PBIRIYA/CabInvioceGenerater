@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CabInvioceGenerater
+namespace CabInvoiceGenerator
 {
     public class InvoiceSummary
     {
         // Variables.
-        private int numberOfRides;
-        private double totalFare;
-        private double averageFare;
+        public int numberOfRides;
+        public double totalFare;
+        public double averageFare;
         /// <summary>
         /// Parameter Constructor For Setting Data.
         /// </summary>
@@ -31,7 +31,6 @@ namespace CabInvioceGenerater
         {
             if (obj == null) return false;
             if (!(obj is InvoiceSummary)) return false;
-
             InvoiceSummary inputedObject = (InvoiceSummary)obj;
             return this.numberOfRides == inputedObject.numberOfRides && this.totalFare == inputedObject.totalFare && this.averageFare == inputedObject.averageFare;
         }

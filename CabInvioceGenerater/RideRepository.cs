@@ -1,8 +1,9 @@
-﻿using System;
+﻿using CabInvioceGenerater;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-
-namespace CabInvioceGenerater
+namespace CabInvoiceGenerator
 {
     public class RideRepository
     {
@@ -30,6 +31,10 @@ namespace CabInvioceGenerater
                     List<Ride> list = new List<Ride>();
                     list.AddRange(rides);
                     this.userRides.Add(userId, list);
+                }
+                else
+                {
+                    this.userRides[userId] = rides.ToList();
                 }
             }
             catch (CabInvoiceException)
