@@ -9,7 +9,6 @@ namespace CabInvoiceGeneratorTest
         public void Setup()
         {
         }
-
         [Test]
         public void Test1()
         {
