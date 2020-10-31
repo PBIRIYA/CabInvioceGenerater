@@ -1,6 +1,6 @@
 using NUnit.Framework;
-
-namespace NUnitTestProject1
+using CabInvioceGenerater;
+namespace CabInvoiceGeneratorTest
 {
     public class Tests
     {
