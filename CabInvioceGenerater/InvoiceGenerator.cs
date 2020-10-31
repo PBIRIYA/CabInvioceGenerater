@@ -1,5 +1,4 @@
-﻿using CabInvioceGenerater;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 namespace CabInvoiceGenerator
@@ -8,7 +7,7 @@ namespace CabInvoiceGenerator
     {
         //Variable.
         RideType rideType;
-        private RideRepository rideRepository;
+        public RideRepository rideRepository;
         //Constants.
         private readonly double MINIMUM_COST_PER_KM;
         private readonly int COST_PER_TIME;
@@ -45,6 +44,9 @@ namespace CabInvoiceGenerator
         /// <summary>
         /// Default Constructor.
         /// </summary>
+        public InvoiceGenerator()
+        {
+        }
         /// <summary>
         /// Function to Calculate Fare.
         /// </summary>
