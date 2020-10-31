@@ -45,9 +45,6 @@ namespace CabInvoiceGenerator
         /// <summary>
         /// Default Constructor.
         /// </summary>
-        public InvoiceGenerator()
-        {
-        }
         /// <summary>
         /// Function to Calculate Fare.
         /// </summary>

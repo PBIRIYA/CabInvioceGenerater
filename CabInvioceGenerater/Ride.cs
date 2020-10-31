@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
-namespace CabInvioceGenerater
+namespace CabInvoiceGenerator
 {
     public class Ride
     {
@@ -21,5 +20,3 @@ namespace CabInvioceGenerater
         }
     }
 }
-
-
